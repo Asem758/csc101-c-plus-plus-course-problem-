@@ -1,15 +1,16 @@
 #include <iostream>
 using namespace std;
-int main() {
 
-  float f;
-  cout <<"Please enter the value of Fahrenheit: " <<endl;
-  cin >> f;
+int main()
+{
+    double f,c;
 
-  float celsius = (f - 32) * (5.0/9.0);
-  cout <<" Temperature in Celsius: " << celsius <<endl;
+    cout << "Enter the Fahrenheit: ";
+    cin >> f;
 
-  return 0;
+    c = (f - 32) / 1.8;
+    cout << "Value of Celsius: " << c <<endl;
 
+    return 0;
 
 }

@@ -1,24 +1,82 @@
 #include <iostream>
 using namespace std;
-int main() {
 
-  int n,first,second,third,fourth,fifth,sum;
-  n = 22231;
+int main()
+{
+    int digit;
 
-  first = n/10000;
-  n = n%10000;
+    cout << " Enter a digit number ";
+    cin >> digit;
 
-  second = n/1000;
-  n = n%1000;
+    switch (digit)
+    {
+      case 0 :
+        {
+            cout << "Zero" <<endl;
+            break;
+        }
 
-  third = n/100;
-  n = n%100;
+        case 1 :
+        {
+            cout << "One" <<endl;
+            break;
+        }
 
-  fourth = n/10;
-  fifth = n%10;
+        case 2 :
+        {
+            cout << "Two" <<endl;
+            break;
+        }
 
-  sum = first + fourth;
-  cout <<"Sum is: " << sum <<endl;
+        case 3 :
+        {
+            cout << "Three" <<endl;
+            break;
+        }
 
-  return 0;
+        case 4 :
+        {
+            cout << "four" <<endl;
+            break;
+        }
+
+        case 5 :
+        {
+            cout << "Five" <<endl;
+            break;
+        }
+
+        case 6 :
+        {
+            cout << "Six" <<endl;
+            break;
+        }
+
+        case 7 :
+        {
+            cout << "Seven" <<endl;
+            break;
+        }
+
+        case 8 :
+        {
+            cout << "Eight" <<endl;
+            break;
+        }
+
+        case 9 :
+        {
+            cout << "Nine" <<endl;
+            break;
+        }
+
+        default :
+
+        {
+            cout << "Not a Digit Number " <<endl;
+        }
+    }
+
+    return 0;
+
 }
